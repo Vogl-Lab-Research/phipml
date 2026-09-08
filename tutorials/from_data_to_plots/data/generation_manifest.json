@@ -1,0 +1,24 @@
+{
+  "phipml_commit": "932f14ffca41ba4f24f3cc570afea27265a5893c",
+  "data_seed": 20260908,
+  "model_seed": 420,
+  "n_training": 160,
+  "n_external": 80,
+  "n_peptides": 80,
+  "n_extras": 4,
+  "class_balance": "50% Control / 50% Case within each cohort",
+  "perfect": "Six target/inverse-target synthetic peptides; 74 independent noise peptides.",
+  "noisy": "Six independent conditional Bernoulli signals: 0.70 vs 0.30 training; 0.65 vs 0.35 external. Alternating signs.",
+  "clinical": "Sex, Smoking, Age, BMI independent of class; external Age shifted +4 years.",
+  "tuning": "Identical noisy data and model seeds for default/tuned pairs. No selection based on external outcomes.",
+  "n_iter_tuned": 12,
+  "sha256": {
+    "data/noisy/metadata.csv": "52fb4300236363d46f4a64969af6b49e0cdbfb313559aff4d212372dc6412a8a",
+    "data/noisy/peptides.csv": "0cdc3725589f4af35f32e15ddbda5fa45be2688faf34696f2af487ab2ca5b1d8",
+    "data/noisy/peptides_transposed.csv": "9ee75569c299f9acff9760e1949accd2f9a364abe355f527c9058f77344efd5c",
+    "data/peptide_library.csv": "0a3348f5e0aaad2c96ed356f098a2aea99d054ebe536b9e2af997a6c54c68940",
+    "data/perfect/metadata.csv": "335a63e6d8342002396b496241236a09c1f58cb54fb487b4741ba9cbf7303e58",
+    "data/perfect/peptides.csv": "9c7e7eac17394050566efe04e5c2841c5a8291a2140c2708499efa84fbc358e6",
+    "data/perfect/peptides_transposed.csv": "30789ce7342edd641dbc0bf84ebf4a42d2ba7e891787a48128b2a1630643e813"
+  }
+}

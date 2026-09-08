@@ -1,0 +1,12 @@
+2026-09-08 19:41:58,908 | INFO | phipml.cli.train_test | Preparing the training cohort
+2026-09-08 19:41:58,941 | INFO | phipml.classification.train_test_utils | Training prevalence filter: 84 -> 84 features
+2026-09-08 19:41:58,941 | INFO | phipml.cli.train_test | Final training data: samples=160, features=84
+2026-09-08 19:41:58,978 | INFO | phipml.cli.train_test | Loaded pretrained model from /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/random-forest/03_noisy_tuned/training_random-forest_03_noisy_tuned_420.joblib
+2026-09-08 19:41:58,978 | INFO | phipml.cli.train_test | Full-cohort model ready in 0.04 seconds
+2026-09-08 19:41:58,995 | INFO | phipml.classification.helpers | External alignment: expected=84, missing peptides=0, extras=0
+2026-09-08 19:42:00,210 | INFO | phipml.classification.helpers | ROC-AUC in validation set: 0.806 (95% bootstrap CI 0.705-0.894)
+2026-09-08 19:42:00,211 | INFO | phipml.classification.helpers | Average Precision (AP) in validation set: 0.805 (95% bootstrap CI 0.708-0.900)
+2026-09-08 19:42:00,211 | INFO | phipml.classification.helpers | Validation classification metrics at threshold 0.50: accuracy=0.713, balanced_accuracy=0.713, precision=0.743, recall/sensitivity=0.650, specificity=0.775, F1=0.693, MCC=0.428
+2026-09-08 19:42:00,211 | INFO | phipml.classification.helpers | Validation classification metrics confusion matrix: TN=31, FP=9, FN=14, TP=26
+2026-09-08 19:42:00,265 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/random-forest/08_reuse_noisy/validation_random-forest_08_reuse_noisy_420.joblib
+2026-09-08 19:42:00,265 | INFO | phipml.cli.train_test | Validation 08_reuse_noisy completed in 1.29 seconds

@@ -1,0 +1,7 @@
+training,validation,path,split
+RF | Perfect / default,Internal CV,../results/random-forest/01_perfect/nested_random-forest_01_perfect_420.joblib,train
+RF | Noisy / default,Internal CV,../results/random-forest/02_noisy/nested_random-forest_02_noisy_420.joblib,train
+RF | Noisy / tuned,Internal CV,../results/random-forest/03_noisy_tuned/nested_random-forest_03_noisy_tuned_420.joblib,train
+RF | Perfect / default,External,../results/random-forest/04_external_perfect/validation_random-forest_04_external_perfect_420.joblib,test
+RF | Noisy / default,External,../results/random-forest/05_external_noisy/validation_random-forest_05_external_noisy_420.joblib,test
+RF | Noisy / tuned,External,../results/random-forest/06_external_noisy_tuned/validation_random-forest_06_external_noisy_tuned_420.joblib,test

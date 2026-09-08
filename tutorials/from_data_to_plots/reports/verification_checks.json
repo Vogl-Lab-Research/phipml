@@ -1,0 +1,17 @@
+[
+  "All supplied data hashes match the generation manifest.",
+  "random-forest/01_perfect: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "random-forest/02_noisy: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "random-forest/03_noisy_tuned: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "random-forest/04_external_perfect: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "random-forest/05_external_noisy: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "random-forest/06_external_noisy_tuned: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/01_perfect: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/02_noisy: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/03_noisy_tuned: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/04_external_perfect: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/05_external_noisy: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "xgboost/06_external_noisy_tuned: cohort IDs, labels, complete predictions, finite SHAP, and all 27 figure files verified.",
+  "RF and XGBoost pretrained reuse scores and SHAP match full-training scenario 06.",
+  "Relocated plotting regenerated performance, SHAP beeswarm, and feature table using explicit model YAML with deliberately invalid original embedded paths."
+]

@@ -1,0 +1,18 @@
+2026-09-08 19:32:56,764 | INFO | phipml.cli.train_test | Preparing the training cohort
+2026-09-08 19:32:56,796 | INFO | phipml.classification.train_test_utils | Training prevalence filter: 84 -> 84 features
+2026-09-08 19:32:56,797 | INFO | phipml.cli.train_test | Final training data: samples=160, features=84
+2026-09-08 19:32:56,797 | INFO | phipml.classification.helpers | Peptide features: 80
+2026-09-08 19:32:56,797 | INFO | phipml.classification.helpers | Additional features: ['Sex', 'Smoking', 'Age', 'BMI']
+/workspace/scratch/c93a153da023/phipml-env/lib/python3.12/site-packages/sklearn/feature_selection/_base.py:116: UserWarning: No features were selected: either the data is too noisy or the selection test too strict.
+  warnings.warn(
+/workspace/scratch/c93a153da023/phipml-env/lib/python3.12/site-packages/sklearn/feature_selection/_base.py:116: UserWarning: No features were selected: either the data is too noisy or the selection test too strict.
+  warnings.warn(
+2026-09-08 19:33:21,731 | INFO | phipml.classification.helpers | Mean ROC-AUC across folds: 0.926 ± 0.030
+2026-09-08 19:33:21,731 | INFO | phipml.classification.helpers | Mean Average Precision (AP) across folds: 0.928 ± 0.037
+2026-09-08 19:33:21,731 | INFO | phipml.classification.helpers | Out-of-fold classification metrics at threshold 0.50: accuracy=0.838, balanced_accuracy=0.838, precision=0.814, recall/sensitivity=0.875, specificity=0.800, F1=0.843, MCC=0.677
+2026-09-08 19:33:21,731 | INFO | phipml.classification.helpers | Out-of-fold classification metrics confusion matrix: TN=64, FP=16, FN=10, TP=70
+2026-09-08 19:33:21,731 | INFO | phipml.classification.helpers | Outer-fold classification variability: accuracy=0.838 ± 0.010, F1=0.843 ± 0.006, MCC=0.679 ± 0.019
+2026-09-08 19:33:21,753 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/xgboost/03_noisy_tuned/nested_xgboost_03_noisy_tuned_420.joblib
+2026-09-08 19:33:21,754 | INFO | phipml.cli.train_test | Nested CV completed in 24.95 seconds
+2026-09-08 19:33:29,767 | INFO | phipml.cli.train_test | Full-cohort model ready in 8.01 seconds
+2026-09-08 19:33:29,777 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/xgboost/03_noisy_tuned/training_xgboost_03_noisy_tuned_420.joblib

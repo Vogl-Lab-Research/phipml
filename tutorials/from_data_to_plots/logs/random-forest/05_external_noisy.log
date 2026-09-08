@@ -1,0 +1,15 @@
+2026-09-08 19:31:35,176 | INFO | phipml.cli.train_test | Preparing the training cohort
+2026-09-08 19:31:35,207 | INFO | phipml.classification.train_test_utils | Training prevalence filter: 84 -> 84 features
+2026-09-08 19:31:35,207 | INFO | phipml.cli.train_test | Final training data: samples=160, features=84
+2026-09-08 19:31:35,208 | INFO | phipml.classification.helpers | Peptide features: 80
+2026-09-08 19:31:35,208 | INFO | phipml.classification.helpers | Additional features: ['Sex', 'Smoking', 'Age', 'BMI']
+2026-09-08 19:31:35,210 | INFO | phipml.cli.train_test | No hyperparameter grid configured
+2026-09-08 19:31:35,432 | INFO | phipml.cli.train_test | Full-cohort model ready in 0.22 seconds
+2026-09-08 19:31:35,472 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/random-forest/05_external_noisy/training_random-forest_05_external_noisy_420.joblib
+2026-09-08 19:31:35,492 | INFO | phipml.classification.helpers | External alignment: expected=84, missing peptides=0, extras=0
+2026-09-08 19:31:36,746 | INFO | phipml.classification.helpers | ROC-AUC in validation set: 0.810 (95% bootstrap CI 0.709-0.898)
+2026-09-08 19:31:36,749 | INFO | phipml.classification.helpers | Average Precision (AP) in validation set: 0.843 (95% bootstrap CI 0.769-0.914)
+2026-09-08 19:31:36,749 | INFO | phipml.classification.helpers | Validation classification metrics at threshold 0.50: accuracy=0.713, balanced_accuracy=0.713, precision=0.758, recall/sensitivity=0.625, specificity=0.800, F1=0.685, MCC=0.432
+2026-09-08 19:31:36,749 | INFO | phipml.classification.helpers | Validation classification metrics confusion matrix: TN=32, FP=8, FN=15, TP=25
+2026-09-08 19:31:36,782 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/random-forest/05_external_noisy/validation_random-forest_05_external_noisy_420.joblib
+2026-09-08 19:31:36,782 | INFO | phipml.cli.train_test | Validation 05_external_noisy completed in 1.31 seconds

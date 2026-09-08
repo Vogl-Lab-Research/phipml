@@ -1,0 +1,13 @@
+2026-09-08 19:37:30,275 | INFO | phipml.cli.train_test | Preparing the training cohort
+2026-09-08 19:37:30,306 | INFO | phipml.classification.train_test_utils | Training prevalence filter: 84 -> 84 features
+2026-09-08 19:37:30,307 | INFO | phipml.cli.train_test | Final training data: samples=160, features=84
+2026-09-08 19:37:30,307 | INFO | phipml.classification.helpers | Peptide features: 80
+2026-09-08 19:37:30,308 | INFO | phipml.classification.helpers | Additional features: ['Sex', 'Smoking', 'Age', 'BMI']
+2026-09-08 19:37:30,310 | INFO | phipml.cli.train_test | No hyperparameter grid configured
+2026-09-08 19:37:31,153 | INFO | phipml.classification.helpers | Mean ROC-AUC across folds: 0.902 ± 0.025
+2026-09-08 19:37:31,153 | INFO | phipml.classification.helpers | Mean Average Precision (AP) across folds: 0.891 ± 0.040
+2026-09-08 19:37:31,153 | INFO | phipml.classification.helpers | Out-of-fold classification metrics at threshold 0.50: accuracy=0.800, balanced_accuracy=0.800, precision=0.808, recall/sensitivity=0.787, specificity=0.812, F1=0.797, MCC=0.600
+2026-09-08 19:37:31,153 | INFO | phipml.classification.helpers | Out-of-fold classification metrics confusion matrix: TN=65, FP=15, FN=17, TP=63
+2026-09-08 19:37:31,153 | INFO | phipml.classification.helpers | Outer-fold classification variability: accuracy=0.800 ± 0.031, F1=0.795 ± 0.046, MCC=0.603 ± 0.061
+2026-09-08 19:37:31,291 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/random-forest/repeated_noisy/nested_random-forest_02_noisy_421.joblib
+2026-09-08 19:37:31,292 | INFO | phipml.cli.train_test | Nested CV completed in 0.98 seconds

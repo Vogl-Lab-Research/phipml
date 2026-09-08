@@ -1,0 +1,7 @@
+training,validation,path,split
+XGB | Perfect / default,Internal CV,../results/xgboost/01_perfect/nested_xgboost_01_perfect_420.joblib,train
+XGB | Noisy / default,Internal CV,../results/xgboost/02_noisy/nested_xgboost_02_noisy_420.joblib,train
+XGB | Noisy / tuned,Internal CV,../results/xgboost/03_noisy_tuned/nested_xgboost_03_noisy_tuned_420.joblib,train
+XGB | Perfect / default,External,../results/xgboost/04_external_perfect/validation_xgboost_04_external_perfect_420.joblib,test
+XGB | Noisy / default,External,../results/xgboost/05_external_noisy/validation_xgboost_05_external_noisy_420.joblib,test
+XGB | Noisy / tuned,External,../results/xgboost/06_external_noisy_tuned/validation_xgboost_06_external_noisy_tuned_420.joblib,test

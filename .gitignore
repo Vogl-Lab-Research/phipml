@@ -34,3 +34,9 @@ models/
 build/
 dist/
 *.egg-info/
+
+# Track the synthetic tutorial data and reference outputs
+!/tutorials/from_data_to_plots/data/
+!/tutorials/from_data_to_plots/data/**
+!/tutorials/from_data_to_plots/results/**/*.joblib
+!/tutorials/from_data_to_plots/logs/**/*.log

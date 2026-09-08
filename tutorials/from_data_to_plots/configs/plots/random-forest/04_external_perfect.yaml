@@ -1,0 +1,55 @@
+# Run: phipml-plot --plot-config <this-file>
+# Explicit model config makes input paths portable after extraction.
+plotting:
+  results:
+  - ../../../results/random-forest/04_external_perfect/validation_random-forest_04_external_perfect_420.joblib
+  config: ../../models/random-forest/04_external_perfect.yaml
+  split: test
+  plots:
+  - all
+  formats:
+  - pdf
+  - svg
+  - png
+  dpi: 180
+  output_dir: ../../../plots/random-forest/04_external_perfect
+  output_prefix: 04_external_perfect
+  title: random-forest | 04 external perfect
+  class_labels:
+  - Control
+  - Case
+  max_display: 10
+  feature_ranking: mean-abs-shap
+  ranking_top_k: 10
+  min_top_k_frequency: 0
+  shap_alignment: strict
+  save_standalone: true
+  reconstruct_data: true
+  library_metadata: ../../../data/peptide_library.csv
+  library_id_column: peptide_id
+  validation_bootstraps: 0
+  random_state: 420
+  class_colors:
+  - '#386CB0'
+  - '#D35D4D'
+  colors:
+    roc: '#176B73'
+    roc_band: '#B3DAD8'
+    pr: '#8A5A44'
+    pr_band: '#DFC5B8'
+    confusion_cmap: Blues
+    classification: '#52796F'
+    shap_cmap: phipml_blue_gray_red
+    shap_heatmap_cmap: phipml_purple_gray_orange
+    shap_importance: '#6D597A'
+  feature_table:
+    annotation_columns:
+    - Description
+    - Role
+    extra_columns: []
+    title: 'Synthetic features: model importance and known roles'
+    header_color: '#DCE9E9'
+    row_colors:
+    - '#F5F8F8'
+    - white
+    prevalence_cmap: phipml_prevalence

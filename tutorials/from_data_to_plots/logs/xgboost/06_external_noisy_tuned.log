@@ -1,0 +1,14 @@
+2026-09-08 19:34:16,996 | INFO | phipml.cli.train_test | Preparing the training cohort
+2026-09-08 19:34:17,019 | INFO | phipml.classification.train_test_utils | Training prevalence filter: 84 -> 84 features
+2026-09-08 19:34:17,020 | INFO | phipml.cli.train_test | Final training data: samples=160, features=84
+2026-09-08 19:34:17,020 | INFO | phipml.classification.helpers | Peptide features: 80
+2026-09-08 19:34:17,020 | INFO | phipml.classification.helpers | Additional features: ['Sex', 'Smoking', 'Age', 'BMI']
+2026-09-08 19:34:23,842 | INFO | phipml.cli.train_test | Full-cohort model ready in 6.81 seconds
+2026-09-08 19:34:23,851 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/xgboost/06_external_noisy_tuned/training_xgboost_06_external_noisy_tuned_420.joblib
+2026-09-08 19:34:23,872 | INFO | phipml.classification.helpers | External alignment: expected=84, missing peptides=0, extras=0
+2026-09-08 19:34:24,965 | INFO | phipml.classification.helpers | ROC-AUC in validation set: 0.808 (95% bootstrap CI 0.706-0.906)
+2026-09-08 19:34:24,965 | INFO | phipml.classification.helpers | Average Precision (AP) in validation set: 0.804 (95% bootstrap CI 0.707-0.919)
+2026-09-08 19:34:24,965 | INFO | phipml.classification.helpers | Validation classification metrics at threshold 0.50: accuracy=0.738, balanced_accuracy=0.738, precision=0.806, recall/sensitivity=0.625, specificity=0.850, F1=0.704, MCC=0.488
+2026-09-08 19:34:24,965 | INFO | phipml.classification.helpers | Validation classification metrics confusion matrix: TN=34, FP=6, FN=15, TP=25
+2026-09-08 19:34:24,972 | INFO | phipml.cli.train_test | Saved /workspace/scratch/c93a153da023/phipml-tutorial-932f14f/results/xgboost/06_external_noisy_tuned/validation_xgboost_06_external_noisy_tuned_420.joblib
+2026-09-08 19:34:24,972 | INFO | phipml.cli.train_test | Validation 06_external_noisy_tuned completed in 1.12 seconds
